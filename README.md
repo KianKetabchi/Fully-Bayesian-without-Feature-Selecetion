@@ -1,16 +1,14 @@
-# Fully-Bayesian-without-Feature-Selecetion
-Breast tissue analysis
-Cancer death is one of humanity’s main challenges in
-the developing countries. Even though there are many ways
-to prevent cancer from occurring in the first place, some
-cancer types remain untreatable. Breast cancer is the
-most frequent cancer in women, and the most common type
-of breast cancer is invasive ductal carcinoma (IDC).
-Automated approaches can be utilised to save time and reduce
-error for detecting and categorising breast cancer subtypes,
-which is a crucial clinical activity. In this study, we used
-Breast Histopathology Images (https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images). 
-This dataset consists of 162
-whole mount slide images of Breast Cancer specimens. From
-that, 277,524 patches of size 50 x 50 were extracted (198,738
-IDC negative and 78,786 IDC positive).
+# Fully Bayesian Learning of Libby-Novick Beta Mixture Models Applied to Medical Application
+
+In this study, we first introduced a new mixture model based
+on Libby-Novick Beta distribution with three parameters.
+We used full Bayesian framework to estimate our model’s
+parameters based on Markov Chain Monte Carlo technique.
+We used a hybrid sampling-based M-H-within-Gibbs learning
+algorithm. Finally, we applied our model on two real-world
+application (Breast tissue analysis)
+and evaluated our model performance by comparing it with
+Guassian Mixture Model. From the results, we can conclude
+that the Libby-Novick mixture Model has a better performance
+in comparison with the performance of Gaussian mixture
+Model.
